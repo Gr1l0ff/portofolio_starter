@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', 'Sans-serif';
+  animation: opening 1s ease-in-out forwards;
+
+}
+
+
+@import "main";
+@import "projects";
+@import "about";
+@import "skills";
+@import "mediaquery";

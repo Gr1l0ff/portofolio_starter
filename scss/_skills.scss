@@ -1,0 +1,87 @@
+//skkills
+.section-skills {
+  width: 100%;
+  padding: 2rem;
+  min-height: 60vh;
+
+  h2 {
+    font-family: 'Lobster';
+    display: none;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+
+  .skills {
+    width: 60%;
+   
+    margin: 1.5rem auto;
+    min-height: 50vh;
+    display: flex;
+    
+    .skill {
+      margin-top: -5rem;
+      width: 50%;
+      padding: 2rem;
+      opacity: 0;
+      // display: ;
+
+      h3 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        
+      }
+      p {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+      }
+
+      img {
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+      }
+      .skill-box {
+
+        // padding: 0.6rem;
+        margin-bottom: 1rem;
+        position: relative;
+        width: 100%;
+        // display: none;
+        height: 2.8rem;
+        background: rgb(248, 244, 239);
+        border-radius: 10px;
+
+        .skill-flex {
+          display: flex;
+          justify-content: space-around;
+        }
+        .skill-para {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          padding: 0.5rem;
+          text-align: center;
+          font-weight: bold;
+
+          b {
+            text-align: right;
+          }
+        }
+        div {
+          padding-top: 0.6rem;
+          position: absolute;
+          border-bottom-left-radius: 5px;
+          bottom: 0;
+          // width: 50%;
+          height: 0.5rem;
+          background: crimson;
+         
+        }
+      
+       }
+    }
+  }
+
+}
+
